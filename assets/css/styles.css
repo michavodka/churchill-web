@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700&display=swap');
+
+/* 
+COLOUR PALETTE
+Colours to be used through my site:
+    color: #9099a2 - charcoal
+    color: #f4f4f4 - paper (white)
+    color: #f5f5f5 - eggshell
+    color: #565656 - grey
+    color: #d7cec7 - peach
+    color: #1d2731 - Ivory black
+    color: #c5c1c0 - light grey
+    color: #ff533d - coral
+    color: #f98866 - petal
+    color: #88bbd6 - fresh water (blue)
+    color: #414141 - matte
+*/
+
+/*
+TYPOGRAPHY
+To call on the font I want to use: 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e8ea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar styles */
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ff533d;
+    background-color: #122232;
+    padding: 20px;
+}
+
+header nav .brand {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+header nav .link-container ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav .link-container ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header nav .link-container ul li a.active {
+    color: #ff533d;
+}
+
+header nav .link-container ul li a:hover {
+    color: #fdad94;
+}
+
+@media(max-width: 440px) {
+    header nav {
+        justify-content: center;
+    }
+    header nav .brand {
+        font-size: 24px;
+    }
+    header nav .link-container {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
+
+/* Wrapper */
+main .intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 80px 60px;
+
+    background: url(../images/churchill-house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 400px;
+}
+
+main .intro .left-content {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgba(229, 232, 234, 0.7);
+    border-radius: 5px;
+}
+
+main .intro .left-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0 0 40px 0;
+    line-height: 60px;
+}
+
+main .intro .left-content h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #636c75;
+}
+main .intro .left-content h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #3f4448;
+
+}
+main .intro .left-content .border-small {
+    background-color: #ff533d;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 40px;
+}
+
+main .intro .right-content {
+    flex-basis: 60%;
+}
+
+main .intro .right-content .image {
+    max-width: 100%;
+}
+
+@media(max-width: 768px) {
+    main .intro {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    main .intro .left-content {
+        flex-basis: auto;
+    }
+    
+    main .intro .right-content {
+        flex-basis: auto;
+    }
+}
