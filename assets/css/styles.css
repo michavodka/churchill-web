@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700|Merriweather:400i&display=swap');
 
 /* 
 COLOUR PALETTE
@@ -14,6 +14,8 @@ Colours to be used through my site:
     color: #f98866 - petal
     color: #88bbd6 - fresh water (blue)
     color: #414141 - matte
+    color: #d0cccc - dusk
+
 */
 
 /*
@@ -24,11 +26,12 @@ To call on the font I want to use:
     font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Archivo Narrow', sans-serif;
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
 */
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e5e8ea;
+    background-color: #fff;
 }
 
 h1,
@@ -163,4 +166,58 @@ main .intro .right-content .image {
     main .intro .right-content {
         flex-basis: auto;
     }
+}
+
+main .quote-container {
+    padding: 100px 60px;
+    background-color: #e5e8ea;
+}
+
+main .quote-container blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    line-height: 56px;
+    border-left: 5px solid #ff533d;
+    padding: 0 40px;
+    text-align: center;
+    color: #565656;
+}
+
+main .content-container {
+    padding: 40px 100px;
+    background-color: #ffffff;
+}
+
+main .content-container article {
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+main .content-container h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 14px;
+
+}
+main .content-container h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #565656;
+}
+
+main .content-container .article-text {
+    padding-top: 10px;
+}
+main .content-container .article-text p {
+    padding: 10px 0 20px 0;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #565656;
+    color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
 }
