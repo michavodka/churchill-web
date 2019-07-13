@@ -214,6 +214,30 @@ main .content-container .article-text p {
     line-height: 20px;
     font-size: 16px;
 }
+main .image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+main .image-container .image-item {
+    padding: 20px;
+}
+
+main .image-container .image-item img {
+    max-width: 400px;
+}
+
+main .image-container .image-item .image-description {
+    text-align: center;
+    color: #3f4448;
+    font-size: 14px;
+    margin-top: 20px;
+}
 
 footer{
     background-color: #565656;
