@@ -45,6 +45,8 @@ h6 {
 
 /* Navbar styles */
 header nav {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,7 +55,9 @@ header nav {
     background-color: #122232;
     padding: 20px;
 }
-
+header nav .link-container {
+    margin-right: 40px;
+}
 header nav .brand {
     font-size: 18px;
     font-weight: 700;
@@ -93,6 +97,9 @@ header nav .link-container ul li a:hover {
         margin-top: 20px;
         font-size: 10px;
     }
+}
+.navbar-padding-fix {
+    padding-top: 75px;
 }
 
 /* Wrapper */
@@ -219,17 +226,16 @@ main .image-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 40px 100px;
-    border: 1px solid red;
+    padding: 0 100px 40px 100px;
     border-radius: 4px;
 }
 
 main .image-container .image-item {
-    padding: 20px;
+
 }
 
 main .image-container .image-item img {
-    max-width: 400px;
+    max-width: 250px;
 }
 
 main .image-container .image-item .image-description {
@@ -238,8 +244,68 @@ main .image-container .image-item .image-description {
     font-size: 14px;
     margin-top: 20px;
 }
+/* second html page to show images of Churchill house utilising previous set styles to keep site consistent */
+.gallery h1 {
+    padding: 100px 60px 40px 60px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.gallery h2 {
+    padding: 0 60px 40px 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #565656;
+}
+.gallery .article-text {
+    padding: 0 60px 40px 60px;
+}
+.gallery .article-text p {
+    padding: 10px 0 20px 0;
+    line-height: 20px;
+    font-size: 16px;
+}
+.gallery .image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 100px 40px 100px;
+    border-radius: 4px;
+}
+.gallery .image-container .image-item .image-description-gallery {
+    text-align: center;
+    color: #3f4448;
+    font-size: 14px;
+}
+@media(max-width: 768px) {
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .gallery left-content {
+        flex-basis: auto;
+    }
+    
+    .gallery .right-content {
+        flex-basis: auto;
+    }
+}
 
-footer{
+.home-link {
+    text-align: right;
+    
+}
+.home-link a {
+    color: #ff533d;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+footer {
     background-color: #565656;
     color: #f4f4f4;
     padding: 10px 0;
