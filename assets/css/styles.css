@@ -205,7 +205,8 @@ main .content-container h1 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 14px;
-
+    border-left: 5px solid #ff533d;
+    padding-left: 20px;
 }
 main .content-container h2 {
     font-size: 16px;
@@ -292,7 +293,18 @@ main .image-container .image-item .image-description {
         flex-basis: auto;
     }
 }
-
+.about .left-content .border-small {
+    background-color: #ff533d;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 40px;
+}
+.history .left-content .border-small {
+    background-color: #ff533d;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 40px;
+}
 .home-link {
     text-align: right;
     
@@ -303,6 +315,10 @@ main .image-container .image-item .image-description {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
+}
+.article-text ul {
+    list-style: square;
+    list-style-position: outside;
 }
 
 footer {
