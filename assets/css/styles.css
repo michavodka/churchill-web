@@ -172,12 +172,10 @@ main .intro .right-content .image {
         flex-basis: auto;
     }
 }
-
 main .quote-container {
     padding: 100px 60px;
     background-color: #e5e8ea;
 }
-
 main .quote-container blockquote {
     font-family: 'Merriweather', serif;
     font-size: 24px;
@@ -191,7 +189,6 @@ main .quote-container blockquote {
     padding: 20px 60px;
     background-color: #e5e8ea;
 }
-
 .intext-quote-container blockquote {
     font-family: 'Merriweather', serif;
     font-size: 16px;
@@ -201,18 +198,15 @@ main .quote-container blockquote {
     text-align: center;
     color: #565656;
 }
-
 main .content-container {
     padding: 40px 100px;
     background-color: #ffffff;
 }
-
 main .content-container article {
     margin-bottom: 60px;
     padding-bottom: 40px;
     border-bottom: 1px solid;
 }
-
 .content-container h1 {
     font-size: 28px;
     font-weight: 700;
@@ -221,11 +215,16 @@ main .content-container article {
     padding-left: 20px;
 }
 .content-container h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #565656;
 }
-
+.content-container h3 {
+    font-size: 16px;
+    font-display: bolder;
+    font-weight: 700;
+    color: black;
+}
 .content-container .article-text {
     padding-top: 10px;
 }
