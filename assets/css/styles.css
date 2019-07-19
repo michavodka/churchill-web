@@ -21,12 +21,10 @@ Colours to be used through my site:
 /*
 TYPOGRAPHY
 To call on the font I want to use: 
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather' sans-serif;
+
 */
 
 body {
@@ -189,6 +187,20 @@ main .quote-container blockquote {
     text-align: center;
     color: #565656;
 }
+.intext-quote-container {
+    padding: 20px 60px;
+    background-color: #e5e8ea;
+}
+
+.intext-quote-container blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 30px;
+    border-left: 5px solid #ff533d;
+    padding: 0 40px;
+    text-align: center;
+    color: #565656;
+}
 
 main .content-container {
     padding: 40px 100px;
@@ -201,35 +213,35 @@ main .content-container article {
     border-bottom: 1px solid;
 }
 
-main .content-container h1 {
+.content-container h1 {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 14px;
     border-left: 5px solid #ff533d;
     padding-left: 20px;
 }
-main .content-container h2 {
+.content-container h2 {
     font-size: 16px;
     font-weight: 700;
     color: #565656;
 }
 
-main .content-container .article-text {
+.content-container .article-text {
     padding-top: 10px;
 }
-main .content-container .article-text p {
+.content-container .article-text p {
     padding: 10px 0 20px 0;
     line-height: 20px;
     font-size: 16px;
 }
-main .content-container .article-text ul {
+.content-container .article-text ul li{
     list-style: inside;
-    /*   list-style-position: outside;*/
     line-height: 25px;
     font-size: 16px;
     margin-left: 60px;
 }
-main .image-container {
+/*from here will show my image styling*/
+.image-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -238,63 +250,23 @@ main .image-container {
     border-radius: 4px;
 }
 
-main .image-container .image-item {
+.image-container .image-item {
 
 }
 
-main .image-container .image-item img {
+.image-container .image-item img {
     max-width: 250px;
 }
 
-main .image-container .image-item .image-description {
+.image-container .image-item .image-description {
     text-align: center;
     color: #3f4448;
     font-size: 14px;
     margin-top: 20px;
 }
-/* second html page to show images of Churchill house utilising previous set styles to keep site consistent */
-.gallery h1 {
-    padding: 100px 60px 40px 60px;
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 14px;
-}
-.gallery h2 {
-    padding: 0 60px 40px 60px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #565656;
-}
-.gallery .article-text {
-    padding: 0 60px 40px 60px;
-}
-.gallery .article-text p {
-    padding: 10px 0 20px 0;
-    line-height: 20px;
-    font-size: 16px;
-}
+/* Gallery has inherited the above styles - no need to repeat the styles, it'll ensure consistency across the pages. */
 
-@media(max-width: 768px) {
-    .gallery {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    .gallery left-content {
-        flex-basis: auto;
-    }
-    
-    .gallery .right-content {
-        flex-basis: auto;
-    }
-}
-.about .left-content .border-small {
-    background-color: #ff533d;
-    width: 100px;
-    height: 5px;
-    margin-bottom: 40px;
-}
-.history .left-content .border-small {
+.left-content .border-small {
     background-color: #ff533d;
     width: 100px;
     height: 5px;
@@ -302,7 +274,6 @@ main .image-container .image-item .image-description {
 }
 .home-link {
     text-align: right;
-    
 }
 .home-link a {
     color: #ff533d;
