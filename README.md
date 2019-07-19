@@ -13,5 +13,5 @@ My biggest difficulty was around the image layout and linking my images correctl
 ## Other
 My intro background image was taken from Google - John Jovic Photography - link - ([https://www.google.com/imgres?imgurl=http%3A%2F%2Fjohnjovic.com%2Fimages%2Flatest2%2FDSC01106_1600wm.jpg&imgrefurl=http%3A%2F%2Fjohnjovic.com%2Flatest2.html&docid=0vL5U35rpFvwkM&tbnid=4JIspix6Vui3pM%3A&vet=10ahUKEwjo4Y6qs8DjAhVaWH0KHfwRDicQMwhIKAYwBg..i&w=1600&h=1067&bih=789&biw=1440&q=churchill%20house%20canberra%20photography&ved=0ahUKEwjo4Y6qs8DjAhVaWH0KHfwRDicQMwhIKAYwBg&iact=mrc&uact=8]), John Jovic Photography link - ([http://johnjovic.com/latest2.html])
 
-Whilst this is something relatively new to me, I had a blast getting to designing and creating this site. 
+Whilst this is something relatively new to me, I had a blast designing and creating this site. 
 
